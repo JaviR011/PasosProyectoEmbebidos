@@ -27,6 +27,7 @@ Esto activa el Bluetooth y comienza a buscar dispositivos.
 Cuando veas en la lista tu dispositivo (por ejemplo, con MAC `00:21:13:01:14:9F` y nombre `Equipo10`), ejecuta:
 
 ```bash
+remove 00:21:13:01:14:9F
 pair 00:21:13:01:14:9F
 trust 00:21:13:01:14:9F
 connect 00:21:13:01:14:9F
